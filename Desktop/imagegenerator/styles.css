@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    .header{
+width: 100%;
+height: 100vh;
+ background:url(img/6.png);
+
+    }
+    
+    
+    
+    #pic{
+        
+        margin-top: 50px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    #bt{
+        border: 2px solid black;
+        padding: 15px;
+        color: #fff;
+        background: red;
+        border-radius: 15px;
+        transition: all 0.1s;
+        font-size: 10px;
+        cursor: pointer;
+    
+    }
+    #bt:hover{
+        border: 3px solid #700;
+        color: #fff;
+        border-radius: 15px;
+        transition: all 0.4s;
+        font-size: 15px;
+    }
